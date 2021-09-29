@@ -22,7 +22,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    /*border: 1px solid grey;*/
+    border: 1px solid grey;
 }
 
 html {
@@ -112,4 +112,37 @@ h1 {
 
 h2 {
     margin: 3%;
+}
+
+.desc-container {
+    text-align: center;
+    color: white;
+    background-color: #DDB9A3;
+    margin: 0% 2%;
+}
+
+.desc-container p {
+    margin: 1% 1%;
+    font-size: 2rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.links-container {
+    text-align: center;
+}
+
+.links-container img {
+    width: 10%;
+}
+
+.links-container p {
+    margin: 1% 37.5% 3%;
+    width: 25%;
+}
+
+footer {
+    background-color: #F9E7DC;;
 }
